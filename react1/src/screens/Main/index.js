@@ -64,6 +64,10 @@ export default function Main() {
         <button type="button" onClick={deleteUser} className="btn">
           Usuń użytkownika
         </button>
+        <h5>
+          Przycisk usuwania działa, lecz trzeba "odkliknąc" żeby tabela się
+          odświeżyła
+        </h5>
       </div>
     </>
   );
